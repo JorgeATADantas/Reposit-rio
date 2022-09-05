@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Cabeçalho animado -->
+    <main>
+      <section class = "typing">
+        <p id = "text"></p>
+      </section>
+    </main>
+    <!-- FIM Cabeçalho animado -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Nossos Produtos</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+      <h1>
+        Tabela de Preços
+      </h1>
+
+    <!-- Tabela de precos -->
+    <center> <!--centraliza a tabela-->
+      <table id = "tabela_precos">
+        <tr id ="cabecalho_tabela_precos"> <!--cria a 1a linha - Cabeçalho -->
+          <td id="coluna_tabela_precos"> Produto   <!--Coluna 1 -->
+          <td id="coluna_tabela_precos"> Descrição <!--Coluna 2 -->
+          <td id="coluna_tabela_precos"> Preço     <!--Coluna 3 -->
+        </tr> <!--Fecha a linha 1-->
+  
+        <tr id="conteudo_tabela_precos">  <!--cria a 2a linha - conteúdo -->
+          <td id="coluna_tabela_precos"> Pão de Queijo
+          <td id="coluna_tabela_precos"> Pacote 10 unidades
+          <td id="coluna_tabela_precos"> R$ 10,00
+        </tr> <!--Fecha a linha 2-->
+  
+        <tr id="conteudo_tabela_precos">  <!--cria a 3a linha - conteúdo -->
+          <td id="coluna_tabela_precos"> Biscoito de Queijo 
+          <td id="coluna_tabela_precos"> Pacote 20 unidades
+          <td id="coluna_tabela_precos"> R$ 16,00         
+        </tr> <!--Fecha a linha 3 -->
+      </table><!--Fecha a tabela -->
+    </center> <!--Fecha centralização da tabela -->
+
+  <br> <!--linha em branco -->
+  <br> <!--linha em branco -->
+
+  <p>
+      CONHEÇA NOSSOS PRODUTOS ARTESANAIS:
+  </p>
+
+  <br> <!--linha em branco -->
+
+    <!-- Tabela de produtos -->
+    <center> <!--centraliza a tabela-->
+      <table id = "tabela_produtos">
+        <tr id ="cabecalho_tabela_produtos"> <!--cria a 1a linha - Cabeçalho -->
+          <td id="coluna_tabela_produtos"> PÃO DE QUEIJO      <!--Coluna 1 -->
+          <td id="coluna_tabela_produtos"> BISCOITO DE QUEIJO <!--Coluna 2 -->
+        </tr> <!--Fecha a linha 1-->
+  
+        <tr id="conteudo_tabela_produtos">  <!--cria a 2a linha - conteúdo -->
+          <td id="coluna_tabela_produtos"> <img width="23.5%"height="23.5%"
+            src=https://content.paodeacucar.com/wp-content/uploads/2019/09/p%C3%A3o-de-queijo-de-liquidificador.jpg>
+          <td id="coluna_tabela_produtos"> <img width="20%" height="20%"
+            src=https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/01/biscoito-de-queijo-da-vovo-2.jpeg>
+        </tr> <!--Fecha a linha 2-->
+      </table><!--Fecha a tabela -->
+    </center> <!--Fecha centralização da tabela -->
+
+  <br> <!--linha em branco -->
+  
+  <hr>
+  <p>
+      ORÇAMENTO PARA FESTAS, ENVIE UM
+      <a href=”mailto:faleconosco@email.com.br”> <!-- link de e-mail -->
+      E-MAIL
+      </a> <!-- fecha o link -->
+  </p>
+  <hr>   
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+    
+  </body>
+
+</html>
