@@ -1,0 +1,16 @@
+body{
+  backkground-color:#F5F5DC;
+  color: #A0522D;
+  font-family: Tahoma;
+  font-size:12px;
+}
+
+h1,h2,h3 {
+  text-align: center;
+  color: #A0522D;
+}
+
+p{
+  text-align: justify;
+  color: #808000;
+}
