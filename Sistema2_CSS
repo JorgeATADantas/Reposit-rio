@@ -1,0 +1,81 @@
+body{
+  background-color:#dbf5f4; /*Cor de fundo da página*/
+  text-align: center;         /*Alinhamento da página*/
+  color: blue;              /*Cor da fonte da página*/
+  font-family: Tahoma;        /*Familia da fonte da página*/
+}
+
+h1,h2,h3{
+  text-align: center;         /*Alinhamento dos estilos*/
+  color:blue;               /*Cor da fonte dos estilos*/
+  font-family: Tahoma;        /*Familia da fonte dos estilos*/
+}
+
+p{
+  text-align:center;          /*Alinhamento do parágrafo*/
+  color: blue;              /*Cor da fonte do parágrafo*/
+  font-family: Tahoma;        /*Familia da fonte do parágrafo*/
+  font-size: 24px;            /*Tamanho da fonte do parágrafo*/
+}
+
+#tabela_precos{
+  border: 1px double black; /*Borda do tamanho 1px do tipo double da cor preta*/
+}
+
+
+#cabecalho_tabela_precos{
+  border: 1px double black; /*Borda do tamanho 1px do tipo double da cor preta*/
+  background: orange;       /*Cor de fundo da célula*/
+  color: blue;              /*Cor da fonte do parágrafo*/
+  font-weight:900;            /*Negrito*/
+  text-align: center;
+
+}
+
+#conteudo_tabela_precos{
+  border: 1px double black; /*Borda do tamanha 1px do tipo double da cor preta*/
+  color: blue;              /*Cor da fonte do parágrafo*/
+  font-weight:0;              /*Sem Negrito*/
+}
+
+#coluna_tabela_precos{
+  border: 1px double black; /*Borda do tamanha 1px do tipo double da cor preta*/
+  color: blue;              /*Cor da fonte do parágrafo*/
+  font-weight:0;              /*Sem Negrito*/
+}
+
+#tabela_produtos{
+  border-collapse: collapse;
+  border: 1px double tomato; /*Borda do tamanha 1px do tipo double da cor tomate*/
+  text-align: center;
+}
+
+
+#cabecalho_tabela_produtos{
+  border: 1px double tomato; /*Borda do tamanha 1px do tipo double da cor tomate*/
+  background: tomato;        /*Cor de fundo da célula*/
+  color: blue;               /*Cor da fonte do parágrafo*/
+  font-weight:900;             /*Negrito*/
+  text-align: center;
+
+}
+
+#conteudo_tabela_produtos{
+  border: 1px double tomato; /*Borda do tamanha 1px do tipo double da cor tomate*/
+  background: tomato;        /*Cor de fundo da célula*/
+  color: blue;               /*Cor da fonte do parágrafo*/
+  font-weight:0;               /*Sem Negrito*/
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+*{
+ margin: 0 auto;
+ padding: 0;
+}
+
+.typing {
+ font-family: ‘Special Elite’, cursive;
+ font-size: 2em;
+ padding: 1em;
+}
