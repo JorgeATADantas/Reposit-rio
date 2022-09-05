@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tradição de Minas</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <script src="script.js"></script>
+    <table border = "0">
+      <tr>
+        <td> <h1> Tradição de Minas</h1></td>
+        <td rowspan ="2">
+          <img width ="50%" height="50%" src="https://linhaaberta.com/wp-content/uploads/img322-4.jpg"/></td>
+      </tr>
+      <tr>
+        <td><center>
+          <img width="30%" height="30%" src="https://vetus.com.br/universidade/wp-content/uploads/2017/11/promo%C3%A7%C3%A3o-02.png"></center>
+        </td>
+      </tr>
+    </table>
+    
+    <table>
+      <tr>
+        <td>
+          <h1> Formulário para Clientes</h1>
+          <p> Preencha os dados abaixo para que possamos enviar maiores informações sobre preços promocionais e <br>
+           novos produtos para degustação</p>
+          <form action = "https://formulario-login--fbricadede.repl.co/principal.html?login=fabrica&senha=123" method = "POST" target="_blank">
+
+         
+            <p>Nome:
+              <input TYPE = "TEXT" NAME = "nome" VALUE="Digite seu primeiro nome" SIZE = "30" MAXLENGTH = "30"/>
+              Sobrenome:
+              <input TYPE = "TEXT" NAME = "sobrenome" VALUE = "Digite seu último nome" SIZE = "55" MAXLENGTH = "55"/>
+            </p>
+      
+            <p>Endereço:
+            <br>Logradouro:
+              <input TYPE = "TEXT" NAME = "endereco" SIZE = "73" MAXLENGTH = "73"/>
+              Número:
+              <input TYPE = "TEXT" NAME = "numero" SIZE = "10" MAXLENGTH = "10"/>
+            </p>
+      
+            <p>Complemento:
+              <input TYPE = "TEXT" NAME = "complemento" SIZE ="35" MAXLENGTH = "35"/>
+              Bairro:
+              <input TYPE = "TEXT" NAME ="bairro" SIZE = "48" MAXLENGTH = "48" />
+            </p>
+      
+            <p>Cidade:
+              <input TYPE = "TEXT" NAME = "cidade" SIZE = "60" MAXLENGTH = "60" />
+      
+              Estado:
+              <select id = "estado" name = "estado">
+                <option value ="">Selecione</option>
+                <option value=”AC”>AC</option>
+                <option value=”AL”>AL</option>
+                <option value=”AP”>AP</option>
+                <option value=”AM”>AM</option>
+                <option value=”BA”>BA</option>
+                <option value=”CE”>CE</option>
+                <option value=”DF”>DF</option>
+                <option value=”ES”>ES</option>
+                <option value=”GO”>GO</option>
+                <option value=”MA”>MA</option>
+                <option value=”MS”>MS</option>
+                <option value=”MT”>MT</option>
+                <option value=”MG”>MG</option>
+                <option value=”PA”>PA</option>
+                <option value=”PB”>PB</option>
+                <option value=”PR”>PR</option>
+                <option value=”PE”>PE</option>
+                <option value=”PI”>PI</option>
+                <option value=”RJ”>RJ</option>
+                <option value=”RN”>RN</option>
+                <option value=”RS”>RS</option>
+                <option value=”RO”>RO</option>
+                <option value=”RR”>RR</option>
+                <option value=”SC”>SC</option>
+                <option value=”SP”>SP</option>
+                <option value=”SE”>SE</option>
+                <option value=”TO”>TO</option>
+              </select>
+      
+              CEP:
+              <input TYPE = "TEXT" NAME = "cep" SIZE = "11" MAXLENGTH ="11"/>
+              </p>
+      
+            <p>Celular:
+              <input TYPE = "TEXT" NAME ="ddd" VALUE = "DDD" SIZE = "2" MAXLENGTH = "2"/>
+                -
+              <input TYPE ="TEXT" NAME ="numCelular" SIZE = "10" MAXLENGTH = "10"/>
+      
+              E-mail:
+              <input TYPE = "email" NAME ="email" VALUE = "Digite seu e-mail" SIZE = "69" MAXLENGTH = "69"/>
+            </p>
+      
+            <p>Escolha os itens que você gostaria de receber maiores informações:
+              <br>
+              <input TYPE="checkbox" NAME="paoDeQueijo" VALUE="sim"/> Pão de Queijo
+              <input TYPE="checkbox" NAME="biscoitoDeQueijo" VALUE="sim"/> Biscoito de Queijo
+              <input TYPE="checkbox" NAME="receitas" VALUE="sim"/> Receitas
+              <input TYPE="checkbox" NAME="novosProdutos" VALUE="sim"/> Novos Produtos
+              <input TYPE="checkbox" NAME="descontoMaioresQuant" VALUE="sim"/> Desconto para maiores quantidades
+              <br>
+              <input TYPE="checkbox" NAME="outros" VALUE="sim"/> Outros:
+              <input TYPE="TEXT" NAME ="outrosTexto" VALUE ="Digite aqui" SIZE = "40" MAXLENGTH = "40"/>
+            </p>
+      
+            <p> Você gosta dos produtos que a Tradição de Minas oferece?
+            <input TYPE = "radio" name ="resposta" VALUE = "Sim" checked/> Sim
+            <input TYPE = "radio" name ="resposta" VALUE = "Não"/> Não
+            </p>
+      
+            <TEXTAREA COLS="103" ROWS="5" NAME ="mensagem">
+              Digite aqui sua mensagem, se precisar de mais informações.
+            </TEXTAREA>
+      
+            <br>
+            <br>
+      
+            <center>
+              <table border="0" bordercolor="#008000">
+                <tr>
+                  <td> <input type="reset" value="Limpar"/> </td>
+                  <td> <input type="submit" value="Enviar"> </td>
+                </tr>
+              </table>
+            </center>
+              
+          </form>
+        </td>
+      </tr>  
+    </table>
+  </body>
+</html>
